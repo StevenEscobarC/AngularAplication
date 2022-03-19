@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sumar {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: fantasy;
+    align-content: center;
+    margin: auto;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.suma {
+    margin: 10px;
+}
+
+#resultado {
+    margin: 10px;
+}
+
+#boton {
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

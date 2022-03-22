@@ -13,7 +13,7 @@ export class SumarComponent implements OnInit {
 
   constructor() {
     this.numero1 = 78;
-    this.numero2 = 3;
+    this.numero2 = 2;
     this.resultado = 0;
   }
 

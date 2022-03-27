@@ -9,6 +9,7 @@ import { Hijo2Component } from './hijo2/hijo2.component';
 import { EventosComponent } from './eventos/eventos.component';
 import { SumarComponent } from './sumar/sumar.component';
 import { ContadorComponent } from './contador/contador.component';
+import { CalculadoraComponent } from './calculadora/calculadora.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ContadorComponent } from './contador/contador.component';
     Hijo2Component,
     EventosComponent,
     SumarComponent,
-    ContadorComponent
+    ContadorComponent,
+    CalculadoraComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="resultado">
+        <p id="res">{{resultado}}</p>
+    </div>
+
+    <div class="teclado">
+        <table id="tabla">
+            <table id="numeros">
+                <tr>
+
+                    <td><button id="numero" value="1" (click)="valorNumero($event.target.value)">1</button></td>
+                    <td><button id="numero" value="2" (click)="valorNumero($event.target.value)">2</button></td>
+                    <td><button id="numero" value="3" (click)="valorNumero($event.target.value)">3</button></td>
+    
+                </tr>
+                <tr>
+    
+                    <td><button id="numero" value="4" (click)="valorNumero($event.target.value)">4</button></td>
+                    <td><button id="numero" value="5" (click)="valorNumero($event.target.value)">5</button></td>
+                    <td><button id="numero" value="6" (click)="valorNumero($event.target.value)">6</button></td>
+                
+                </tr>
+                <tr>
+    
+                    <td><button id="numero" value="7" (click)="valorNumero($event.target.value)">7</button></td>
+                    <td><button id="numero" value="8" (click)="valorNumero($event.target.value)">8</button></td>
+                    <td><button id="numero" value="9" (click)="valorNumero($event.target.value)">9</button></td>
+                
+                </tr>
+                <tr>
+    
+                    <td colspan="3"><button id="numero" value="0" (click)="valorNumero($event.target.value)">0</button></td>
+                
+                </tr>
+            </table>
+            
+            <table id="operadores">
+                <tr>
+
+                    <td><button id="operador" value="+" (click)="valorNumero($event.target.value)">+</button></td>
+                    <td><button id="operador" value="-" (click)="valorNumero($event.target.value)">-</button></td>
+                    <td><button id="operador" value="*" (click)="valorNumero($event.target.value)">*</button></td>
+                    <td><button id="operador" value="/" (click)="valorNumero($event.target.value)">/</button></td>
+    
+                </tr>
+                <tr>
+                    <td colspan="4"><button id="operador" (click)="calcularResultado()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="operador" (click)="borrarUltimo()">BorrarUltimo</button></td>
+                    <td colspan="2"><button id="operador" (click)="borrarTodo()">BorrarTodo</button></td>
+                </tr>
+            </table>
+        </table>
+    </div>
+</div>
